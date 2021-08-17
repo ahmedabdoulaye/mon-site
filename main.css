@@ -1,0 +1,378 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    scroll-behavior: smooth;
+}
+#main-nav ul {
+    display: flex;
+    list-style: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    scroll-behavior: smooth;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#main-nav ul a {
+    text-decoration: none;
+    color: #222;
+    margin: 0 30px;
+    font-weight: 500;
+    transition: color 0.4s;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+#main-nav {
+    padding: 0 5%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 99;
+    align-items: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#homepage .title {
+    line-height: 80px;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 600;
+    color: #222;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 35px;
+}
+.button {
+    display: inline-block;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #70c14d;
+    font-weight: 600;
+    padding: 15px 25px 12px;
+    border-radius: 60px;
+    font-size: 20px;
+    border: solid 3px #70c14d;
+    transition: 0.4s, color 0.4s;
+}
+#homepage .subtitle, #homepage .button {
+    margin-top: 30px;
+}
+.logo .title-3 span {
+    color: #70c14d;
+}
+a.button:hover {
+    background: #70c14d;
+    color: white;
+}
+a.button{
+    text-decoration: none;
+    color: #70c14d;
+}
+.logo .title-3 {
+    margin-left: 10px;
+    font-weight: 600;
+}
+.title-3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+}
+#main-nav a.logo{
+    text-decoration: none;
+}
+.title-2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #222;
+}
+#offres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    padding: 50px 5%;
+}
+.cards {
+    display: flex;
+    margin-top: 30px;
+}
+#offres .subtitle {
+    margin-top: 30px;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 35px;
+}
+.cards .card {
+    flex: 1;
+    min-width: 300px;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+.cards .card > img {
+    width: 70%;
+}
+.cards .card > .subtitle {
+    margin-top: 20px;
+}
+.cards .card > .title-3, .cards .card > .subtitle {
+    margin-top: 20px;
+}
+.cards .card > .title-3, .cards .card > .subtitle {
+    margin-top: 20px;
+}
+.title-3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+}
+.img:hover{
+    color: #fff;
+}
+.title {
+    font-size: 70px;
+    font-weight: 600;
+    color: #222;
+}
+#chefs .subtitle {
+    margin-top: 30px;
+}
+
+#reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    padding: 50px 5%;
+}
+#join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+}
+#reviews .title-2 {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    margin-top: 30px;
+}
+.cards .card header {
+    display: flex;
+    align-items: center;
+}
+.cards .card header img {
+    width: 60px;
+    border-radius: 50%;
+}
+.cards .card header div {
+    margin-left: 20px;
+}
+.title-3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+}
+.cards .card header div p {
+    line-height: 20px;
+}
+.cards .card > .subtitle {
+    margin-top: 20px;
+}
+.cards .card .stars {
+    display: flex;
+    margin-top: 20px;
+    color: #f29838;
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+path {
+    fill: currentcolor;
+    d: path("M 259.3 17.8 L 194 150.2 L 47.9 171.5 c -26.2 3.8 -36.7 36.1 -17.7 54.6 l 105.7 103 l -25 145.5 c -4.5 26.3 23.2 46 46.4 33.7 L 288 439.6 l 130.7 68.7 c 23.2 12.2 50.9 -7.4 46.4 -33.7 l -25 -145.5 l 105.7 -103 c 19 -18.5 8.5 -50.8 -17.7 -54.6 L 382 150.2 L 316.7 17.8 c -11.7 -23.6 -45.6 -23.9 -57.4 0 Z");
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+.cards .card header img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+#prestaires {
+    display: flex;
+    align-items: center;
+}
+.container {
+    padding: 50px 5%;
+}
+#prestaires .subtitle {
+    margin-top: 30px;
+}
+#rejoindre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+}
+.container {
+    padding: 50px 5%;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #f5fbf7;
+}
+ footer a.logo {
+    display: flex;
+    color: #222;
+    text-decoration: none;
+    align-items: center;
+}
+footer a.logo .title-3 {
+    margin-left: 10px;
+    font-weight: 600;
+}
+footer > div .subtitle-2 {
+    margin-top: 10px;
+}
+.subtitle-2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 15px;
+}
+
+footer > div .social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer nav {
+    display: flex;
+}
+footer nav ul {
+    list-style: none;
+    margin: 0 50px;
+}
+.title-4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+}
+footer nav ul .subtitle-2 {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.4s;
+}
+.title-4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+}
+footer nav ul {
+    list-style: none;
+    margin: 0 50px;
+}
+footer > div a {
+    text-decoration: none;
+    color: #777;
+    transition: color 0.4s;
+}
+footer p.subtitle-2 a{
+    text-decoration: none;
+    color: #777;
+    transition: color 0.4s;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+#rejoindre .input {
+    background: white;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#rejoindre .input input {
+    font-size: 20px;
+    padding-left: 20px;
+    flex: 1;
+    outline: none;
+    border: none;
+}
+#rejoindre img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(40%);
+}
